@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SliderItem03() {
   return (
-    <div className="relative w-full h-[calc(100vh-80px)]">
+    <div className="relative w-full h-full">
       <Image
         src="/main/main03m.png"
         alt="부스초대"

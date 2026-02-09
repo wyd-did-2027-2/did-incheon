@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SliderItem04() {
   return (
-    <div className="relative w-full h-[calc(100vh-80px)] bg-[#FCF2E6]">
+    <div className="relative w-full h-full bg-[#FCF2E6]">
       <Image
         src="/main/main04m.png"
         alt="인천교구 봉사자 모집"
