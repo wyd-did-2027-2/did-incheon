@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full h-20 bg-white flex items-center justify-between z-50 px-16 max-md:px-8 mx-sm:px-4 shadow-sm">
+    <header className="fixed top-0 left-0 w-full h-20 bg-white flex items-center justify-between z-50 px-16 max-md:px-8 mx-sm:px-4 shadow-sm gap-x-4">
       <h1>
         <Link href="/" className="flex items-center gap-x-1">
           <Image
@@ -18,7 +18,7 @@ export default function Header() {
       <div className="flex">
         <Image
           src="/logo2.png"
-          width={170}
+          width={150}
           height={80}
           alt="wyd did 인천 로고"
           priority
