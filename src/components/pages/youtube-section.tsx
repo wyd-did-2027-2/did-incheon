@@ -68,7 +68,7 @@ export default function YoutubeSection({ items }: YoutubeSectionProps) {
         spaceBetween={16}
         slidesPerView={1}
         breakpoints={{
-          1280: { slidesPerView: 2 },
+          1280: { slidesPerView: 3 },
         }}
         className="[&_.swiper-slide]:h-auto!"
       >
