@@ -44,6 +44,7 @@ export default function Header({ locale = "kr" }: { locale?: Locale }) {
           height={80}
           alt={t.logoAlt}
           priority
+          className="hidden md:block"
         />
         <nav className="hidden lg:flex ml-6">
           <ul className="flex items-center gap-8 body01M text-gray-800">
