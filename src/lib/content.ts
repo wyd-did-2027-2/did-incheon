@@ -20,7 +20,7 @@ export const content = {
       ogLocale: "ko_KR",
     },
     header: {
-      logoAlt: "wyd did 인천 로고",
+      logoAlt: "wyd did 인천",
       nav: {
         home: "홈",
         calendar: "캘린더",
@@ -31,7 +31,7 @@ export const content = {
       },
     },
     footer: {
-      logoAlt: "wyd did 인천 로고",
+      logoAlt: "wyd did 인천",
       address:
         "인천광역시 동구 박문로 1 인천교구청 102호 WYD 인천 교구대회 사무국",
       email: "qna.wyd.doc.icn@gmail.com",
@@ -78,7 +78,7 @@ export const content = {
       ogLocale: "en_US",
     },
     header: {
-      logoAlt: "wyd did Incheon logo",
+      logoAlt: "wyd did Incheon",
       nav: {
         home: "Home",
         calendar: "Calendar",
@@ -89,7 +89,7 @@ export const content = {
       },
     },
     footer: {
-      logoAlt: "wyd did Incheon logo",
+      logoAlt: "wyd did Incheon",
       address:
         "1, Bakmun-ro, Dong-gu, Incheon, Diocesan Office #102, WYD Incheon Diocesan Committee",
       email: "qna.wyd.doc.icn@gmail.com",
