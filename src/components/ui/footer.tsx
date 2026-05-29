@@ -7,7 +7,7 @@ export default function Footer({ locale = "kr" }: { locale?: Locale }) {
 
   return (
     <footer
-      className="w-dvw flex h-74 justify-between bg-white px-16 py-7.5 text-black max-[1079px]:flex-wrap max-[1079px]:h-auto max-[1079px]:gap-y-1 max-[1079px]:px-8 max-[1079px]:py-12 max-sm:px-4 bg-no-repeat bg-bottom-right"
+      className="w-full flex h-74 justify-between bg-white px-16 py-7.5 text-black max-[1079px]:flex-wrap max-[1079px]:h-auto max-[1079px]:gap-y-1 max-[1079px]:px-8 max-[1079px]:py-12 max-sm:px-4 bg-no-repeat bg-bottom-right"
       style={{ backgroundImage: "url('/footer-bg.png')" }}
     >
       <div className="flex flex-col">
