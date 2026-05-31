@@ -5,8 +5,9 @@ import CalendarSection from "@/components/pages/calendar-section";
 import NoticeSection from "@/components/pages/notice-section";
 import YoutubeSection from "@/components/pages/youtube-section";
 import SiteSection from "@/components/pages/site-section";
+import SponsorSection from "@/components/pages/sponsor-section";
 import FaqSection from "@/components/pages/faq-section";
-import { locales, isLocale, type Locale } from "@/lib/content";
+import { locales, isLocale } from "@/lib/content";
 import {
   getCalendarData,
   getNoticeData,
@@ -47,6 +48,7 @@ export default async function Home({
       <NoticeSection items={noticeItems} locale={locale} />
       <YoutubeSection items={youtubeItems} locale={locale} />
       <SiteSection items={siteItems} locale={locale} />
+      <SponsorSection locale={locale} />
       <FaqSection items={faqItems} locale={locale} />
     </>
   );

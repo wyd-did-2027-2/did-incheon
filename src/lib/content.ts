@@ -27,6 +27,7 @@ export const content = {
         youtube: "영상",
         notice: "공지",
         site: "사이트",
+        sponsor: "후원",
         faq: "FAQ",
       },
     },
@@ -51,6 +52,17 @@ export const content = {
       youtube: "추천 영상",
       site: "관련 사이트",
       faq: "FAQ",
+    },
+    sponsor: {
+      eyebrow: "WYD 인천 교구대회",
+      title: "후원문의",
+      description:
+        "WYD 인천 교구대회를 함께 준비해 주실 분들의 문의를 기다립니다.",
+      addressLabel: "주소",
+      phoneLabel: "전화",
+      address:
+        "인천광역시 동구 박문로 1 인천교구청 102호 WYD 인천 교구대회 사무국",
+      phone: "032-765-6997",
     },
     notice: {
       backLink: "돌아가기",
@@ -85,6 +97,7 @@ export const content = {
         youtube: "Videos",
         notice: "Notice",
         site: "Sites",
+        sponsor: "Sponsor",
         faq: "FAQ",
       },
     },
@@ -109,6 +122,17 @@ export const content = {
       youtube: "Featured Videos",
       site: "Related Sites",
       faq: "FAQ",
+    },
+    sponsor: {
+      eyebrow: "WYD Incheon Diocesan Day",
+      title: "Sponsorship Inquiry",
+      description:
+        "Contact the WYD Incheon Diocesan Committee for sponsorship inquiries.",
+      addressLabel: "Address",
+      phoneLabel: "Phone",
+      address:
+        "1, Bakmun-ro, Dong-gu, Incheon, Diocesan Office #102, WYD Incheon Diocesan Committee",
+      phone: "032-765-6997",
     },
     notice: {
       backLink: "Go back",

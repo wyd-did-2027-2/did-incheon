@@ -64,6 +64,9 @@ export default function Header({ locale = "kr" }: { locale?: Locale }) {
               <Link href="#site">{t.nav.site}</Link>
             </li>
             <li>
+              <Link href="#sponsor">{t.nav.sponsor}</Link>
+            </li>
+            <li>
               <Link href="#faq">{t.nav.faq}</Link>
             </li>
           </ul>
