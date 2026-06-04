@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 
+import JsonLd from "@/components/json-ld";
+
 import SliderSection from "@/components/pages/slide-section";
 import CalendarSection from "@/components/pages/calendar-section";
 import NoticeSection from "@/components/pages/notice-section";
@@ -8,6 +10,7 @@ import SiteSection from "@/components/pages/site-section";
 import SponsorSection from "@/components/pages/sponsor-section";
 import FaqSection from "@/components/pages/faq-section";
 import { locales, isLocale } from "@/lib/content";
+import { createWebSiteJsonLd } from "@/lib/structured-data";
 import {
   getCalendarData,
   getNoticeData,
@@ -43,6 +46,7 @@ export default async function Home({
 
   return (
     <>
+      <JsonLd data={createWebSiteJsonLd(locale)} />
       <SliderSection locale={locale} />
       <CalendarSection items={calendarItems} locale={locale} />
       <NoticeSection items={noticeItems} locale={locale} />
