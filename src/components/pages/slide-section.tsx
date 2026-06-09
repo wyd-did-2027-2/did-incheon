@@ -5,7 +5,7 @@ export default function SliderSection({ locale = "kr" }: { locale?: Locale }) {
   return (
     <section
       id="home"
-      className="w-full aspect-video h-[calc(100vh-80px)] max-[1080px]:aspect-auto max-[1080px]:h-screen"
+      className="w-full aspect-video h-[calc(100vh-80px)] max-[1080px]:aspect-auto"
     >
       <MainSlider locale={locale} />
     </section>
