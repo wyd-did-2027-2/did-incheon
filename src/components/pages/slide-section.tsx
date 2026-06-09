@@ -3,7 +3,10 @@ import type { Locale } from "@/lib/content";
 
 export default function SliderSection({ locale = "kr" }: { locale?: Locale }) {
   return (
-    <section id="home" className="w-full h-[calc(100vh-160px)]">
+    <section
+      id="home"
+      className="w-full aspect-video h-[calc(100vh-80px)] max-[1080px]:aspect-auto max-[1080px]:h-screen"
+    >
       <MainSlider locale={locale} />
     </section>
   );
