@@ -11,7 +11,7 @@ export default function SliderItem00({ locale }: { locale: string }) {
   const { pc, mobile } = PREFIX[locale] || PREFIX.kr;
 
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full bg-white">
       <Image
         src={`${R2_URL}/${mobile}1.png`}
         alt="인천교구 wyd open"
