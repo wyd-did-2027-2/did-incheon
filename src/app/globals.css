@@ -149,6 +149,24 @@
   }
 }
 
+.main-slider-image-mobile {
+  display: block;
+}
+
+.main-slider-image-pc {
+  display: none;
+}
+
+@media (orientation: landscape), (min-width: 1080px) {
+  .main-slider-image-mobile {
+    display: none;
+  }
+
+  .main-slider-image-pc {
+    display: block;
+  }
+}
+
 @utility display01B {
   font-weight: var(--font-bold);
   font-size: 72px;
