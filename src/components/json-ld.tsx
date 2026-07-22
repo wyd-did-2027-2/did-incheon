@@ -2,6 +2,8 @@ type JsonLdProps = {
   data: unknown;
 };
 
+//.
+
 export default function JsonLd({ data }: JsonLdProps) {
   return (
     <script
