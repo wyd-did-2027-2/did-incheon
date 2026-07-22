@@ -16,14 +16,14 @@ export default function SliderItem00({ locale }: { locale: string }) {
         src={`${R2_URL}/${mobile}1.png`}
         alt="인천교구 wyd open"
         fill
-        className="main-slider-image-mobile object-contain"
+        className="main-slider-image-mobile object-fill"
         priority
       />
       <Image
         src={`${R2_URL}/${pc}1.png`}
         alt="인천교구 wyd open"
         fill
-        className="main-slider-image-pc object-contain"
+        className="main-slider-image-pc object-fill"
         priority
       />
     </div>
